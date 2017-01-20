@@ -1,0 +1,80 @@
+/* CSS for AkamaiVidXBlock */
+
+.akamaivid_block_studio{
+    padding:24px;
+}
+.akamaivid_block_studio label {
+	vertical-align: top;
+	margin-top: 10px;
+	
+	transition: color 0.25s ease-in-out 0s;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    width: 15%;
+    min-width: 100px;
+    margin-right: 10px;
+	
+	font-size: 14px;
+    line-height: 20.72px;
+}
+
+.akamaivid_block_studio input {
+	height: 100%;
+    width: 100%;
+    width: 45%;
+	margin-bottom: 10px;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #b2b2b2;
+    text-overflow: ellipsis;
+	color: #33b2eb;
+	
+	font-size: 16px;
+    font-size: 1rem;
+    line-height: 23.68px;
+    line-height: 2.368rem;
+	
+	background-color: #f2f2f2;
+	background-image: linear-gradient(#f2f2f2,#fff);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.akamaivid_block_studio input[type="text"]:focus {
+	background-color: #fffcf1;
+    background-image: -webkit-linear-gradient(#fffcf1,#fffffe);
+    background-image: linear-gradient(#fffcf1,#fffffe);
+    outline: 0;
+}
+.akamaivid_block_studio .btn-container {
+	width: 58%;
+}
+.akamaivid_block_studio .btn-container a {
+	background: #0075b4;
+    border-color: #0075b4;
+    color: #fff;
+	float:right;
+	text-decoration: none;
+	margin-right: -35px;
+    clear: both;
+	padding: 10px 20px;
+	border-radius: 4px;
+	transition: color 0.25s ease-in-out 0s,border-color 0.25s ease-in-out 0s,background 0.25s ease-in-out 0s,box-shadow 0.25s ease-in-out 0s;
+	box-shadow: none;
+}
+.akamaivid_block_studio .btn-container a:hover {
+	box-shadow: 0 2px 1px rgba(0,0,0,0.2);
+	background-color: rgb(6, 86, 131);
+    border-color: #065683;
+}
+.akamaivid_block .count {
+    font-weight: bold;
+}
+
+.akamaivid_block p {
+    cursor: pointer;
+}
+.akamaivid_block span.hidden{
+    display:none;
+}
